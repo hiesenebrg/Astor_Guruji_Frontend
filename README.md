@@ -27,9 +27,9 @@ Start the server
 ```
 
 ## Hosted Link 
-```bash
- [Astro Guruji](https://astroguruji-frontend.netlify.app/)
-```
+
+  ## [Astro Guruji](https://astroguruji-frontend.netlify.app/)
+
 
 
 ## 🛠 Skills
