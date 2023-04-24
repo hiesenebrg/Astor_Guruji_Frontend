@@ -28,7 +28,7 @@ Start the server
 
 ## Hosted Link 
 ```bash
- [ https://inquisitive-buttercream-cf3538.netlify.app/](https://astroguruji-frontend.netlify.app/)
+ [Astro Guruji](https://astroguruji-frontend.netlify.app/)
 ```
 
 
