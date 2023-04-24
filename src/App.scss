@@ -740,7 +740,7 @@ body {
       }
     }
   
-    .astro__bottom {
+.astro__bottom {
       display: flex;
       justify-content: center;
   
@@ -750,5 +750,181 @@ body {
       }
     }
   }
+  .carousel {
+    display: flex;
+    justify-content: center;
+    
+  
+    .carousel__container {
+      background-color: #ffefe3;
+      // height: 1166px;
+      width: 1224px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      .carousel__head {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 29.81px;
+        gap: 25.19px;
+  
+        .sun {
+          width: 95.74px;
+          height: 92px;
+        }
+  
+        .car_head {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 19px;
+  
+          span {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 40.96px;
+            letter-spacing: 0.085em;
+            color: var(--orangisB);
+          }
+  
+          @media (max-width: 767px) {
+            gap: 10px;
+  
+            img {
+              height: 26px;
+            }
+  
+            span {
+              font-size: 22px;
+            }
+          }
+        }
+      }
+  
+      .carousel__main {
+        margin-top: 41px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+  
+        .carousel__slides {
+          width: 929px;
+          // height: 390px;
+  
+          @media (max-width: 768px) {
+            width: 525px;
+  
+            .c__slider {
+              margin-left: 0px !important;
+            }
+          }
+  
+          @media (max-width: 525px) {
+            width: 375px;
+  
+            .c__slider {
+              margin-left: 0px !important;
+            }
+          }
+          
+  
+          .c__slider {
+            margin-left: -100px;
+          }
+        }
+  
+        .carousel__btn {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-start;
+          height: 166px;
+          margin-bottom: 63.18px;
+          gap: 900px;
+          margin-top:-300px;
+  
+        @media (max-width:787px){
+          gap:10px;
+          margin-top:0px;
+        }
+          .slidBtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 41.91px;
+            height: 41.91px;
+            border-radius: 2rem;
+            border: none;
+            background-color: #dfdfdf;
+            box-shadow: 0px 4.69444px 4.69444px rgba(0, 0, 0, 0.25);
+            cursor: pointer;
+            z-index: 2;
+          }
+        }
+      }
+  
+      .carsouel__template {
+        margin-top:100px;
+        img {
+          width: 100%;
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+      }
+  
+      .carsouel__dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 19px;
+        gap: 12.5px;
+  
+        div {
+          height: 16px;
+          width: 16px;
+          border: 2px solid #ed944e;
+          border-radius: 2rem;
+        }
+  
+        :first-child {
+          background-color: #87420c;
+        }
+      }
+    }
+    
+  }
+  
+  .slider-container {
+    position: relative;
+  }
+  
+  .image-container {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    z-index: 0;
+  }
+  .image-container.active {
+    opacity: 1;
+    z-index: 2;
+    transform: scale(1.2);
+  }
+  
+  .slick-current .image-container {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .play-btn-cont {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 120px;
+  }
+
+  
+
   
   

@@ -1,8 +1,8 @@
 import React from "react";
-// import testimonial from "../../Images/carsouel";
+import star from "../../assets/star.png";
 import card from "./data";
 import Card from "../Card/Card";
-// import commonImg from "../../Images";
+import usserbottom from "../../assets/userbottom.png";
 
 const PremiumAstro = () => {
   return (
@@ -11,9 +11,9 @@ const PremiumAstro = () => {
         <div className="asto__container">
           <div className="astro__head">
             <div className="car_head">
-              {/* <img src={testimonial.star} />
+              <img src={star} />
               <span>Premium Astrologers</span>
-              <img src={testimonial.star} /> */}
+              <img src={star} />
             </div>
           </div>
 
@@ -38,7 +38,7 @@ const PremiumAstro = () => {
       </div>
 
       <div className="astro__bottom">
-        {/* <img src={commonImg.endRef} /> */}
+        <img src={usserbottom} />
       </div>
     </div>
   );
