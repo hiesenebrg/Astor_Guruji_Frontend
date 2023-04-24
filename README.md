@@ -23,7 +23,7 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run dev
+  npm run start
 ```
 
 ## Hosted Link 
